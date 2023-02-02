@@ -18,7 +18,11 @@ public class Journal
     {
         using (StreamWriter outputFile = new StreamWriter(filename))
         {
-           outputFile.WriteLine(_entries);
+            
+            
+            
+                outputFile.WriteLine(_entries);
+            
         }
     }
 
