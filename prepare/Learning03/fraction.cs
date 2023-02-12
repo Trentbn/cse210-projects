@@ -15,10 +15,10 @@ public class Fraction
         _bottom = 1;
     }
 
-    public Fraction(int top, int bottom)
+    public Fraction(int number1, int number2)
     {
-        _top = top;
-        _bottom = bottom;
+        _top = number1;
+        _bottom = number2;
     }
 
     public string GetFractionString()
