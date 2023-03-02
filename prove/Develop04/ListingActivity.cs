@@ -22,6 +22,7 @@ public class ListingActivity : Activity
 
         while (DateTime.Now < endTime)
         {
+            Console.WriteLine("");
             Console.Write(">");
         
             string entry = Console.ReadLine();
@@ -29,10 +30,6 @@ public class ListingActivity : Activity
         }
         Console.WriteLine($"You listed {entries.Count} items");
         
-
-    }
-    public void Getprompt()
-    {
 
     }
 

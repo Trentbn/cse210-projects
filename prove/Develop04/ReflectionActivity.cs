@@ -46,14 +46,6 @@ public class ReflectionActivity : Activity
 
 
     }
-    public void GetPrompt()
-    {
-
-    }
-    public void GetQuestion()
-    {
-
-    }
 
     // CONSTRUCTORS //
     public ReflectionActivity(string name, string description, int duration) : base(name, description, duration)

@@ -33,6 +33,7 @@ class Program
                 breath.PauseSpinner(5);
             }
 
+            // REFLECTION ACTIVITY //
             if (choice == 2)
             {
                 Console.Clear();
@@ -47,6 +48,7 @@ class Program
                 reflection.PauseSpinner(5);
             }
 
+            // LISTING ACTIVITY //
             if (choice == 3)
             {
                 Console.Clear();
@@ -61,6 +63,7 @@ class Program
 
                 listing.DisplayEndMessage();
             }
+            
         } while (choice != 4);
 
     }
