@@ -1,0 +1,5 @@
+0
+SimpleGoal:goal 1,description 1,10,False
+EternalGoal:goal 2,description 2,20
+ChecklistGoal:goal 3,description 3,30,50,3,0
+ChecklistGoal:Do 40 pushups,Do 10 pushups every hour for 4 hours,20,50,4,0

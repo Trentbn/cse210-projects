@@ -1,0 +1,3 @@
+0
+SimpleGoal:Make the bed today,To make the bed,25,False
+EternalGoal:Meditate,Meditate every day,10
