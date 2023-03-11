@@ -60,7 +60,7 @@ public class ChecklistGoal : Goal
         }
         
         Console.WriteLine($"Congratulations! You have earned {points} points!");
-        
+         
         return points;
     }
 }
