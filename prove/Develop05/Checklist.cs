@@ -18,7 +18,14 @@ public class ChecklistGoal : Goal
 
     public override void DisplayGoal()
     {
+        if (GetComplete() == false)
+        {
         Console.WriteLine($"[ ] {GetName()} ({GetDescription()}) -- Currently completed: {_completed}/{_timesToComplete})");
+        }
+        else
+        {
+            Console.WriteLine($"[X] {GetName()} ({GetDescription()}) -- Currently completed: {_completed}/{_timesToComplete})");
+        }
     }
 
     public override string GetStringRepresentation()
@@ -39,5 +46,21 @@ public class ChecklistGoal : Goal
         newGoal._completed = int.Parse(goalInfo[5]);
 
         return newGoal;
+    }
+
+    public override int RecordGoal()
+    {
+        _completed += 1;
+        int points = GetPoints();
+
+        if (_completed == _timesToComplete)
+        {
+            SetComplete(true);
+            points += _bonusPoints;
+        }
+        
+        Console.WriteLine($"Congratulations! You have earned {points} points!");
+        
+        return points;
     }
 }

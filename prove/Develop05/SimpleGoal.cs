@@ -23,6 +23,6 @@ public class SimpleGoal : Goal
     public override int RecordGoal()
     {
         return base.RecordGoal();
-        SetComplete(true);
+        
     }
 }

@@ -16,4 +16,12 @@ public class EternalGoal : Goal
 
         return newGoal; 
     }
+
+    public override int RecordGoal()
+    {
+        int points = GetPoints();
+        Console.WriteLine($"Congratulations! You have earned {points} points!");
+        
+        return points;
+    }
 }

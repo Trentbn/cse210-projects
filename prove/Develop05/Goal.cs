@@ -52,7 +52,14 @@ public abstract class Goal
     public virtual void DisplayGoal()
 
     {
+        if (_complete == false)
+        {
         Console.WriteLine($"[ ] {_name} ({_description})");
+        } 
+        else
+        {
+         Console.WriteLine($"[X] {_name} ({_description})");
+        }
     }
 
     public virtual string GetStringRepresentation()
@@ -63,6 +70,9 @@ public abstract class Goal
     public virtual int RecordGoal()
     {
         int points = _points;
+        _complete = true;
+
+        Console.WriteLine($"Congratulations! You have earned {points} points!");
 
         return points;
     }

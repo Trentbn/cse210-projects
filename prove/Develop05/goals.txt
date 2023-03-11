@@ -1,5 +1,4 @@
-0
-SimpleGoal:goal 1,description 1,10,False
-EternalGoal:goal 2,description 2,20
-ChecklistGoal:goal 3,description 3,30,50,3,0
-ChecklistGoal:50 pushups,Do 50 pushups in one day,50,50,2,0
+225
+SimpleGoal:Complete goal program,Finish the goal program for CSE210,100,True
+EternalGoal:Daily learning,Spend time each day learning,25
+ChecklistGoal:Land 3 BS kickflips,Land 3 bs kicklips cleanly,50,150,3,2

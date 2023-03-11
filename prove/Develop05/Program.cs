@@ -12,7 +12,9 @@ class Program
         
         do
         {
+            Console.WriteLine("");
             Console.WriteLine($"You have {points} points");
+            Console.WriteLine("");
 
             // MENU
             Console.WriteLine("Menu Options:");
@@ -152,9 +154,6 @@ class Program
                 Goal goalChoice = goals[goalAccomplished -1];
 
                 points += goalChoice.RecordGoal();
-
-                Console.WriteLine($"Congratulations! You have earned {goalChoice.GetPoints()} points!");
-                
 
             } 
 
