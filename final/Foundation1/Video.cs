@@ -27,6 +27,5 @@ public class Video
             comment.Display();
         }
     }
-    
 
 }
